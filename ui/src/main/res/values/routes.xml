@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_route">android-app://poke.app/splash</string>
+    <string name="list_pokemon_route">android-app://poke.app/list_pokemon</string>
+    <string name="my_pokemon_route">android-app://poke.app/my_pokemon</string>
+    <string name="detail_pokemon_route">android-app://poke.app/detail_pokemon</string>
+</resources>

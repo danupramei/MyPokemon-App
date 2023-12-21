@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pokemon_navigation"
+    app:startDestination="@id/splash_fragment">
+
+    <fragment
+        android:id="@+id/splash_fragment"
+        android:name="com.pokemon.ui.view.splash.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        app:route="@string/splash_route"
+        tools:layout="@layout/fragment_splash_screen" />
+
+    <fragment
+        android:id="@+id/list_pokemon_fragment"
+        android:name="com.pokemon.ui.view.list_pokemon.ListPokemonFragment"
+        android:label="fragment_list_pokemon"
+        app:route="@string/list_pokemon_route"
+        tools:layout="@layout/fragment_list_pokemon" />
+
+    <fragment
+        android:id="@+id/my_pokemon_fragment"
+        android:name="com.pokemon.ui.view.my_pokemon.MyPokemonFragment"
+        android:label="fragment_my_pokemon"
+        app:route="@string/my_pokemon_route"
+        tools:layout="@layout/fragment_my_pokemon" />
+
+    <fragment
+        android:id="@+id/detail_pokemon_fragment"
+        android:name="com.pokemon.ui.view.detail_pokemon.DetailPokemonFragment"
+        android:label="fragment_detail_pokemon"
+        app:route="@string/detail_pokemon_route"
+        tools:layout="@layout/fragment_detail_pokemon" />
+
+</navigation>

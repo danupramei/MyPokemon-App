@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="tosca">#EAF6FF</color>
+    <color name="red">#EC3232</color>
+    <color name="teal_200">#6CCCDC</color>
+    <color name="black">#0A0E2B</color>
+    <color name="gray">#9F9FA2</color>
+    <color name="transparent">#000FFFFF</color>
+    <color name="ripple_color_dark">#99252727</color>
+</resources>

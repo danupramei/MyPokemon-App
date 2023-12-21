@@ -1,0 +1,13 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="type">Type</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="my_pokemon">My Pokemon</string>
+    <string name="try_again">Coba Lagi</string>
+    <string name="moves_list">Moves List</string>
+    <string name="input_nick_pokemon">Masukkan Nickname Pokemon</string>
+    <string name="save">Simpan</string>
+    <string name="catching">Tangkap</string>
+    <string name="release">Lepaskan</string>
+</resources>
